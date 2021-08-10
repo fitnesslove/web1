@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>WEB1 - html</title>
+<!__제목을 작성하고 싶을때는 title을 사용합니다__>
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+<!__목차를 나누는 방법은 list를 통해서 나눕니다.
+  자식태그인 li태그는 부모태그인 ol 또는 ul 태그를 가지게 됩니다.
+  ol은 순서가 있는 리스트이고 ul은 순서가 없는 리스트입니다.__>
+
+  <ol>
+  <strong>글자를 진하게 하고 싶으면</strong>
+  <u>밑줄을 치고 싶으면</u>
+  <strong><u>글자를 진하고 밑줄을 치고 싶으면</u></strong>
+  <u><strong>수식을 반대로 써도 똑같아요</strong></u>
+  <br>글자를 수식하는 것을 태그라고 합니다.
+  <br>문장의 줄을 바꾸고 싶을때는 line-break를 사용합니다.
+  <p>하지만 문장의 단락을 바꿀때는 paragraph를 사용합니다.</p>
+  br과 p 태그는 각각의 차이점이 있는데, line-break는 자유롭게 줄을 늘이거나 줄일 수 있는 반면에
+  <br> p 태그는 정해진 여백의 크기만큼만 늘어납니다.
+  <p
+  style="margin-top:50px;">   <!__css스타일입니다. 주석처리함__>
+    태그와 태그사이의 공간을 margin이라 합니다. 또한 위치와 크기를 정합니다.
+  </p>
+</ol>
+<h1> h1은 제목의 첫번째 우선순위를 가진것을 의미합니다.</h1>
+<h2> 제목 2번째</h2>
+<h3> 제목 3번째</h3>
+<h4> 제목 4번째</h4>
+<h5> 제목 5번째</h5>
+<h6> 제목 6번째</h6>
+heading은 제목을 뜻합니다.
+<p>사진을 가져오는 방법은 image 방법으로 가져오고 screen으로 주소를 씁니다. </p>
+<br> 이를 attribute, 즉 속성이라고 합니다.
+<p><img src="coding_univ.jpg" width="250">
+</p>
+
+<p>표를 만드는 방법은 table을 사용해서 만드는 것인데, 이 부모태그인 table에 따라오는 자식태그는 tr과 td가 있습니다.
+</p>
+<table>
+  <tr>
+    <td>head</td>
+    <td>98.1%</td>
+  </tr>
+  <tr>
+    <td>body</td>
+    <td>97.9%</td>
+  </tr>
+  <tr>
+    <td>html</td>
+    <td>97.9</td>
+
+    <p><a href="https://comic.naver.com/webtoon/weekday" target="blank" title="네이버웹툰">네이버 웹툰을 보고 싶으시면 클릭하세요
+    </a></p>
+        <!__hyperlink+comprehension을 하면 하이퍼링크가 제작됩니다.
+        이후 새 탭에서 열고 싶으면 targe을 blank로 설정합니다.
+        하이퍼링크에 커서를 대면 설명문이 나오려면 title에 설명을 작성합니다.
+        추가적으로 a는 anchor로 닻을 의미합니다.  __>
+  </tr>
+</table>
+</body>
+</html>
